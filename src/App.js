@@ -33,7 +33,7 @@ function App() {
       guardarCrearGasto(false);
     }
 
-  },[gasto]);
+  },[gasto, gastos, crearGasto, restante]);
 
 
 
