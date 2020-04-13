@@ -15,11 +15,14 @@ const Pregunta = () => {
         e.preventDefault();
 
         //Validar
+        if( cantidad < 1 || isNaN(cantidad) ) {
+            guardarError(true);
+            return;
+        }
 
         // Si se pasa de la validacion
     }
 
-    // Validar formulario
 
     return (  
         <Fragment>
